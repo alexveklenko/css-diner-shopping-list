@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{transition: all .1s ease-in;}
+body {
+	font-family:  'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	background: #3B3F45;
+	color: #fff;
+
+}
+html, body, .wrapper {
+	height: 100%
+}
+.wrapper {
+	border: 20px solid;
+	box-sizing: border-box;
+}
+header {
+	background: #4A4F56;
+	height: 65px;
+	color: #EB7E7F;
+	padding: 25px;
+}
+.logo {
+	display: block;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+.logo span {
+	display: block;
+	font-size: 26px;
+	font-weight: normal;
+}
+ul {
+	margin: 30px auto;
+	width: 800px;
+	font-size: 25px;
+
+}
+li {
+	background: #88839E;
+	border-top: 5px solid #88839E;
+	border-bottom: 5px solid #88839E;
+}
+
+li:nth-child(even) {
+	background: #7A7593;
+	border-top: 5px solid #7A7593;
+	border-bottom: 5px solid #7A7593;
+}
+li:hover {
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	background: #625E77;
+}
+footer {
+	color: #EB7E7F;
+	font-size: 26px;
+	background: #4A4F56;
+	width: 750px;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+}
+input[type="checkbox"] {
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+span {
+	font-size: 25px;
+}
+.explain {
+	font-size: 16px;
+	vertical-align: middle;
+
+}
+span span:before {
+	content: '('
+}
+span span:after {
+	content: ')'
+}
+input:checked+span {
+	text-decoration: line-through;
+}
+
+label {
+    padding: 15px;
+    display: block;
+}
+li:active {
+	background: #EB7E7F;
+}
